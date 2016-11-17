@@ -2,7 +2,26 @@ Z_ba_1_exp
 Terminatie = Yes 
 Confluence = Maybe namelijk Proof: Open
 
-Z_btree_1_exp = Termination proven:
-Z_btree_2_exp = terminatie proven: 
+Z_da_1_exp
+Terminatie = Yes 
+Confluence = Maybe namelijk Proof: Open
 
-Z
+Z_da_2_exp.trs
+
+
+Z_ba_1_exp.trs
+Terminatie = Yes
+Confluence = Maybe namelijk Proof Open
+
+Z_ba_2_exp.trs
+Terminatie = Yes 
+Confluence = Maybe namelijk Proof Open
+
+Z_ba_tree_1_exp.trs
+Terminatie = Yes
+Confluence = No, Proof:
+ Nonconfluence Processor:
+  terms: plus(x,neg(z)) *<- plus(x,neg(bat(0(),z))) ->* neg(plus(z,neg(x)))
+  Qed
+  
+
